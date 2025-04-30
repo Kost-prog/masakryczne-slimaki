@@ -1,6 +1,12 @@
 import Accordion from "accordion-js";
 import "accordion-js/dist/accordion.min.css";
 
+const panels = document.querySelectorAll(".answer");
+
+panels.forEach(panel => {
+  panel.style.height = ""; 
+});
+
 document.addEventListener('DOMContentLoaded', function () {
     const accordion = new Accordion('.accordion_list', {
         duration: 600, 
