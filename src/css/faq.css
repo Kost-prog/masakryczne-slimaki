@@ -45,6 +45,10 @@
       width: 100%;
       gap: 24px;
   }
+
+  .theme-dark .accordion_item.open {
+    background-color: #204136;
+  }
   
   .accordion_header {
   width: 100%; 
